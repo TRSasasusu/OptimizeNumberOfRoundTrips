@@ -26,3 +26,14 @@ products?
 max weight? 51
 [{2,3,},{4,},{0,1,},]
 ```
+
+### Decimal Example
+
+```
+$ ./a.out
+number of products? 4
+products?
+0.4 6.7 0.1 6
+max weight? 7
+[{1,2,},{0,3,},]
+```
