@@ -48,23 +48,6 @@ std::vector<std::vector<size_t>> OptimizeCombinations(std::vector<long> weights,
     }
 
     return used_weights_in_each_carry;
-    /*
-    for(auto w : weights) {
-        std::cout << w << " ";
-    }
-    std::cout << std::endl;
-    for(auto v : dp) {
-        for(auto e : v) {
-            std::cout << e << " ";
-        }
-        std::cout << std::endl;
-    }
-    for(auto e : used_weights_table.at(weights_length).at(max_weight)) {
-        std::cout << e << " ";
-    }
-    std::cout << std::endl;
-    */
-    //return std::vector<std::vector<int>> {{}};
 }
 
 
